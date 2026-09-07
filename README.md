@@ -2,6 +2,14 @@
 
 Turn an everyday portrait photo into a 30-second mixed-media video: the real person moves naturally while the surrounding environment becomes a completely static black-and-white doodle sticker collage.
 
+## 中文介绍
+
+**Living Doodle Video** 是一个面向日常人物照片的通用视频生成 Skill。用户只需上传一张随手拍照片，它会在严格保留真人五官、肤色、身材比例、服装、动作与手持物品的基础上，将周围环境转化为扁平、极简的黑白手绘贴纸场景，并生成一段 30 秒的动态视频。
+
+视频全程采用固定镜头，背景贴纸、物体位置、透视关系、光影和底色保持静止，仅让真实人物完成与原图场景相符的自然动作。Skill 会根据照片中实际可见的姿势、空间和物品自动调整动作幅度，减少人物变形、肢体崩坏、背景重绘和画面闪烁。视频最后还可以加入文字贴纸，用于生活记录、社交媒体内容、创意短片和混合媒介视觉表达。
+
+**使用流程：** 上传随手拍照片 → 生成黑白涂鸦贴纸风格首帧 → 生成人物自然运动的 30 秒视频 → 添加可选的结尾文字贴纸。
+
 ## What it does
 
 Living Doodle Video guides an image-to-video workflow that keeps the photographed subject realistic and recognizable while transforming the environment into a flat scrapbook-style scene.
