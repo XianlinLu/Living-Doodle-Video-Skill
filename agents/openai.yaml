@@ -4,8 +4,6 @@ interface:
   default_prompt: Use $living-doodle-video to turn my uploaded photo into a 30-second
     video with a realistic moving person, a frozen monochrome sticker background,
     and optional closing text stickers.
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
 policy:
   products:
   - chatgpt
