@@ -107,20 +107,23 @@ Before delivery, the workflow checks:
 
 For the strongest background stability, use a video tool that supports motion masks, locked background layers, or foreground compositing. Prompting alone may not produce a pixel-identical background across every frame.
 
+## Lumina Canvas Agent compatibility
+
+This repository contains text-based Skill files only, so it can be imported into Lumina Canvas Agent without unsupported asset warnings. All filenames and extensions follow Lumina's supported document rules.
+
 ## Repository structure
 
 ```text
 Living-Doodle-Video-Skill/
 ├── SKILL.md
-├── agents/
-│   └── openai.yaml
-└── assets/
-    └── icon.svg
+├── README.md
+└── agents/
+    └── openai.yaml
 ```
 
 - **SKILL.md** contains the complete workflow, prompt templates, timing rules, and verification guidance.
+- **README.md** provides the English and Chinese usage guide.
 - **agents/openai.yaml** defines the Skill's display metadata and invocation behavior.
-- **assets/icon.svg** provides the Skill icon.
 
 ## Output requirements
 
