@@ -1,0 +1,15 @@
+interface:
+  display_name: Living Doodle Video
+  short_description: Turn photos into 30-second living doodle videos
+  default_prompt: Use $living-doodle-video to turn my uploaded photo into a 30-second
+    video with a realistic moving person, a frozen monochrome sticker background,
+    and optional closing text stickers.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
